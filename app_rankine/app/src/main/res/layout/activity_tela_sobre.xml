@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".TelaSobre">
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_titulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/fundo_titulos"
+            android:gravity="center"
+            android:padding="2sp"
+            android:text="Sobre"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <TextView
+            android:id="@+id/txt_sobre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:padding="16sp"
+            android:autoLink="web"
+            android:text='Este aplicativo é resultado do trabalho de conclusão de curso intitulado "Desenvolvimento de Algoritmos para Dimensionamento de Ciclos Rankine e Implementação de Aplicativo Android" apresentado na UFRJ - Campus Macaé - pelo aluno Pietro Sales.\n\nO aplicativo foi desenvolvido com objetivo puramente didático, sem fins lucrativos.\n\nO código-fonte para este e os demais softwares desenvolvidos neste trabalho podem ser acessados em https://github.com/pietrosas/ciclos_rankine'
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_titulo"
+            android:background="@drawable/fundo_botao_dois"/>
+
+        <TextView
+            android:id="@+id/txt_titulo_dois"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/fundo_titulos"
+            android:gravity="center"
+            android:padding="2sp"
+            android:text="Referências"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sobre" />
+
+        <TextView
+            android:id="@+id/txt_creditos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="16dp"
+            android:autoLink="web"
+            android:background="@drawable/fundo_botao_dois"
+            android:padding="16sp"
+            android:text='As ilustrações utilizadas neste aplicativo foram disponibilizadas pela aluna Gabriele Rand do curso de Engenharia Mecânica da UFRJ - Campus Macaé.\n\nO cálculo das propriedades termodinâmicas foi realizado utilizando a biblioteca de código aberto CoolProp. Mais informações: www.coolprop.org'
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_titulo_dois"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

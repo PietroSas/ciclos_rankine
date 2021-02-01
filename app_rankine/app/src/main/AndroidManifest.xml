@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pietrosales.ciclos_rankine">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.pietrosales.ciclos_rankine.LicencaCoolprop"></activity>
+        <activity android:name="com.pietrosales.ciclos_rankine.TelaCalculadora"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.pietrosales.ciclos_rankine.TelaSobre" />
+        <activity android:name="com.pietrosales.ciclos_rankine.Saidas.SaidasRegenerativo" />
+        <activity android:name="com.pietrosales.ciclos_rankine.Saidas.SaidasReaquecido" />
+        <activity android:name="com.pietrosales.ciclos_rankine.Saidas.SaidasSimples" />
+        <activity
+            android:name="com.pietrosales.ciclos_rankine.Entradas.TelasResultadosRegenerativo"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.pietrosales.ciclos_rankine.Entradas.TelaResultadosReaquecido"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.pietrosales.ciclos_rankine.Entradas.TelaResultadosSimples"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.pietrosales.ciclos_rankine.TelaRankSimples" />
+        <activity android:name="com.pietrosales.ciclos_rankine.TelaRankRegenerativo" />
+        <activity android:name="com.pietrosales.ciclos_rankine.TelaRankReaquecido" />
+        <activity android:name="com.pietrosales.ciclos_rankine.TelaOpcoesRankine" />
+        <activity android:name="com.pietrosales.ciclos_rankine.TelaInicial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

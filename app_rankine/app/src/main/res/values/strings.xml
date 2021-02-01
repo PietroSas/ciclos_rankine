@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Ciclos Rankine</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="arranjo_f_sico">Arranjo Físico</string>
+
+    <string name="diagrama_t_s">Diagrama T-s</string>
+
+    <string-array name="propriedades">
+        <item>Pressão (kPa)</item>
+        <item>Temperatura (ºC)</item>
+        <item>Entalpia (kJ/kg)</item>
+        <item>Entropia (kJ/kg.K)</item>
+        <item>Energia Interna (kJ/kg)</item>
+        <item>Volume Específico (m³/kg)</item>
+        <item>Líquido Saturado</item>
+        <item>Vapor Saturado</item>
+    </string-array>
+
+    <string-array name="fluidos">
+        <item>Water</item>
+        <item>1-Butene</item>
+        <item>Acetone</item>
+        <item>Air</item>
+        <item>Ammonia</item>
+        <item>Argon</item>
+        <item>Benzene</item>
+        <item>CarbonDioxide</item>
+        <item>CarbonMonoxide</item>
+        <item>CarbonylSulfide</item>
+        <item>CycloHexane</item>
+        <item>CycloPropane</item>
+        <item>Cyclopentane</item>
+        <item>D4</item>
+        <item>D5</item>
+        <item>D6</item>
+        <item>Deuterium</item>
+        <item>Dichloroethane</item>
+        <item>DiethylEther</item>
+        <item>DimethylCarbonate</item>
+        <item>DimethylEther</item>
+        <item>Ethane</item>
+        <item>Ethanol</item>
+        <item>EthylBenzene</item>
+        <item>Ethylene</item>
+        <item>EthyleneOxide</item>
+        <item>Fluorine</item>
+        <item>HFE143m</item>
+        <item>HeavyWater</item>
+        <item>Helium</item>
+        <item>Hydrogen</item>
+        <item>HydrogenChloride</item>
+        <item>HydrogenSulfide</item>
+        <item>IsoButane</item>
+        <item>IsoButene</item>
+        <item>Isohexane</item>
+        <item>Isopentane</item>
+        <item>Krypton</item>
+        <item>MD2M</item>
+        <item>MD3M</item>
+        <item>MD4M</item>
+        <item>MDM</item>
+        <item>MM</item>
+        <item>Methane</item>
+        <item>Methanol</item>
+        <item>MethylLinoleate</item>
+        <item>MethylLinolenate</item>
+        <item>MethylOleate</item>
+        <item>MethylPalmitate</item>
+        <item>MethylStearate</item>
+        <item>Neon</item>
+        <item>Neopentane</item>
+        <item>Nitrogen</item>
+        <item>NitrousOxide</item>
+        <item>Novec649</item>
+        <item>OrthoDeuterium</item>
+        <item>OrthoHydrogen</item>
+        <item>Oxygen</item>
+        <item>ParaDeuterium</item>
+        <item>ParaHydrogen</item>
+        <item>Propylene</item>
+        <item>Propyne</item>
+        <item>R11</item>
+        <item>R113</item>
+        <item>R114</item>
+        <item>R115</item>
+        <item>R116</item>
+        <item>R12</item>
+        <item>R123</item>
+        <item>R1233zd(E)</item>
+        <item>R1234yf</item>
+        <item>R1234ze(E)</item>
+        <item>R1234ze(Z)</item>
+        <item>R124</item>
+        <item>R125</item>
+        <item>R13</item>
+        <item>R134a</item>
+        <item>R13I1</item>
+        <item>R14</item>
+        <item>R141b</item>
+        <item>R142b</item>
+        <item>R143a</item>
+        <item>R152A</item>
+        <item>R161</item>
+        <item>R21</item>
+        <item>R218</item>
+        <item>R22</item>
+        <item>R227EA</item>
+        <item>R23</item>
+        <item>R236EA</item>
+        <item>R236FA</item>
+        <item>R245ca</item>
+        <item>R245fa</item>
+        <item>R32</item>
+        <item>R365MFC</item>
+        <item>R40</item>
+        <item>R404A</item>
+        <item>R407C</item>
+        <item>R41</item>
+        <item>R410A</item>
+        <item>R507A</item>
+        <item>RC318</item>
+        <item>SES36</item>
+        <item>SulfurDioxide</item>
+        <item>SulfurHexafluoride</item>
+        <item>Toluene</item>
+        <item>Xenon</item>
+        <item>cis-2-Butene</item>
+        <item>m-Xylene</item>
+        <item>n-Butane</item>
+        <item>n-Decane</item>
+        <item>n-Dodecane</item>
+        <item>n-Heptane</item>
+        <item>n-Hexane</item>
+        <item>n-Nonane</item>
+        <item>n-Octane</item>
+        <item>n-Pentane</item>
+        <item>n-Propane</item>
+        <item>n-Undecane</item>
+        <item>o-Xylene</item>
+        <item>p-Xylene</item>
+        <item>trans-2-Butene</item>
+    </string-array>
+    
+    
+</resources>

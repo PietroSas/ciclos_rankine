@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".TelaOpcoesRankine">
+
+
+    <android.support.constraint.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/fundo_titulos"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="Escolha o Ciclo"
+            android:textSize="32sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+        <Button
+            android:id="@+id/btn_rank_simples"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/fundo_botao"
+            android:drawableEnd="@drawable/ic_arrow_forward_white_24dp"
+            android:minWidth="0dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="12dp"
+            android:scaleType="center"
+            android:text="Rankine Simples"
+            android:textColor="#DEFFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_rank_reaq"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"/>
+
+
+        <Button
+            android:id="@+id/btn_rank_reaq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/fundo_botao"
+            android:drawableEnd="@drawable/ic_arrow_forward_white_24dp"
+            android:minWidth="0dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="12dp"
+            android:scaleType="center"
+            android:text="Rankine Reaquecido"
+            android:textColor="#DEFFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_rank_reg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"/>
+
+
+        <Button
+            android:id="@+id/btn_rank_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/fundo_botao"
+            android:drawableEnd="@drawable/ic_arrow_forward_white_24dp"
+            android:minWidth="0dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="12dp"
+            android:scaleType="center"
+            android:text="Rankine Regenerativo"
+            android:textColor="#DEFFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/btn_rank_simples"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/im_curva_saturacao_ts" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
